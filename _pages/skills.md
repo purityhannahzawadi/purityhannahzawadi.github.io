@@ -17,349 +17,66 @@ As a Geospatial Engineer, I bring a comprehensive skill set that combines techni
 
 ---
 
-## Geospatial Technologies
-
-### GIS Analysis & Spatial Data Science {#gis-mapping}
-
-**Advanced Capabilities:**
-- Spatial data analysis and modeling
-- Multi-criteria decision analysis (MCDA)
-- Network analysis and routing optimization
-- Geocoding and address matching
-- Terrain analysis and 3D modeling
-- Viewshed and line-of-sight analysis
-- Proximity and buffer analysis
-- Overlay and intersection operations
-
-**Practical Applications:**
-- Infrastructure planning and optimization
-- Site suitability analysis
-- Service area delineation
-- Resource allocation modeling
-- Urban planning and development analysis
-
-### Remote Sensing & Image Analysis {#remote-sensing}
-
-**Technical Skills:**
-- Satellite image processing and interpretation
-- Multispectral and hyperspectral analysis
-- Aerial photography interpretation
-- Digital image enhancement and correction
-- Land use/land cover classification
-- Change detection analysis
-- Vegetation indices (NDVI, EVI, SAVI)
-- Image fusion and pan-sharpening
-
-**Data Sources Experience:**
-- Landsat imagery
-- Sentinel satellite data
-- SPOT imagery
-- High-resolution commercial imagery
-- Aerial photographs
-- LiDAR data processing
-
-### Cartography & Map Production {#cartography}
-
-**Design & Production:**
-- Thematic map design and creation
-- Cartographic principles and standards
-- Map layout and composition
-- Legend and scale design
-- Color theory application
-- Interactive web map development
-- Atlas production
-- Print-ready map preparation
-
----
-
-## Technical Software Proficiency {#gis-software}
-
-### GIS Platforms
-
-**ESRI ArcGIS Suite** ⭐⭐⭐⭐⭐
-- ArcGIS Pro (Advanced)
-- ArcMap (Expert)
-- ArcGIS Online
-- ArcGIS Enterprise
-- ModelBuilder automation
-- Python scripting with ArcPy
-
-**QGIS (Open Source)** ⭐⭐⭐⭐
-- Advanced spatial analysis
-- Plugin development
-- PyQGIS scripting
-- Custom processing tools
-
-**Other GIS Software:**
-- Google Earth Engine
-- MapInfo Professional
-- GRASS GIS
-- PostGIS (Spatial Database)
-
-### CAD & Design Software {#cad-design}
-
-**AutoCAD** ⭐⭐⭐⭐
-- 2D drafting and design
-- CAD-GIS integration
-- Coordinate system management
-- Data conversion and integration
-
-**Additional Design Tools:**
-- Adobe Illustrator (Map finishing)
-- Inkscape (Vector graphics)
-- GIMP (Raster editing)
-
-### Remote Sensing Software
-
-**Image Processing:**
-- ENVI (Advanced)
-- ERDAS Imagine
-- Google Earth Engine
-- Sentinel Hub
-- SNAP (Sentinel Application Platform)
-
-### Database Management
-
-**Spatial Databases:**
-- PostgreSQL with PostGIS
-- SQLite with SpatiaLite
-- Microsoft SQL Server (Spatial)
-- File Geodatabase management
-
-**Data Management:**
-- Database design and optimization
-- SQL query writing
-- Data migration and ETL processes
-- Metadata creation and management
-
----
-
-## Programming & Scripting
-
-### Languages & Tools
-
-**Python** ⭐⭐⭐⭐
-```python
-# Geospatial libraries
-- ArcPy (ESRI automation)
-- GeoPandas (Spatial data analysis)
-- Rasterio (Raster processing)
-- Shapely (Geometric operations)
-- Folium (Web mapping)
-- PyProj (Coordinate transformations)
-```
-
-**SQL** ⭐⭐⭐⭐
-- Spatial queries
-- Database optimization
-- Complex joins and aggregations
+Core Technical Skills
+GIS Analysis & Mapping
 
-**JavaScript** ⭐⭐⭐
-- Leaflet.js (Web mapping)
-- OpenLayers
-- Mapbox GL JS
-
-### Analysis & Statistics
-
-**R Programming** ⭐⭐⭐
-- Spatial statistics
-- Geostatistics
-- Data visualization
-- Statistical modeling
-
----
-
-## Data Collection & Field Work
-
-### GPS & GNSS Technology
-
-**Field Equipment:**
-- Handheld GPS receivers
-- Survey-grade GNSS equipment
-- Mobile GIS applications
-- Real-time kinematic (RTK) positioning
-
-**Field Procedures:**
-- Ground truthing and validation
-- Coordinate system management
-- Attribute data collection
-- Quality control protocols
-- GPS post-processing
+Advanced in spatial analysis, geostatistics (kriging, interpolation), and network modeling. Skilled in 3D terrain analysis, cartographic design, and spatial database management (PostgreSQL/PostGIS, Esri geodatabases). Experienced across environmental assessment, urban planning, and resource management.
 
-### Mobile Data Collection
+Remote Sensing & Image Processing
 
-**Platforms & Apps:**
-- ArcGIS Field Maps
-- Survey123 for ArcGIS
-- QField (QGIS mobile)
-- ODK Collect
-- Custom mobile applications
-
----
+Proficient in image preprocessing, classification, and change detection. Experienced in multispectral, hyperspectral, and SAR data analysis for vegetation monitoring, land cover mapping, and environmental assessment.
 
-## Analytical & Professional Skills
-
-### Spatial Analysis Techniques
+Data Collection & Field Work
 
-- **Geostatistical Analysis**
-  - Kriging interpolation
-  - Spatial autocorrelation
-  - Hot spot analysis
-  - Spatial regression
+Expert in GPS surveying, ground truthing, and mobile GIS data collection. Developing UAV/drone data acquisition skills to complement field operations.
 
-- **Network Analysis**
-  - Shortest path analysis
-  - Service area determination
-  - Location-allocation modeling
-  - Vehicle routing problems
+Software & Tools
 
-- **3D Analysis**
-  - Digital Elevation Model (DEM) processing
-  - Slope and aspect calculation
-  - Watershed delineation
-  - 3D visualization
+GIS: ArcGIS Pro, ArcMap, ArcGIS Online, QGIS, Google Earth Engine
 
-### Project Management
+Remote Sensing: ENVI, ERDAS IMAGINE, SNAP, GRASS GIS
 
-- **Planning & Organization**
-  - Project timeline development
-  - Resource allocation
-  - Risk assessment
-  - Stakeholder management
+CAD & Design: AutoCAD, Civil 3D, SketchUp
 
-- **Quality Assurance**
-  - Data quality control
-  - Validation procedures
-  - Documentation standards
-  - Metadata compliance
+Databases: PostgreSQL/PostGIS, SQL Server, SQLite/SpatiaLite
 
-### Communication Skills
+Programming: Python (ArcPy, GDAL, GeoPandas, Matplotlib), R (spatial stats), SQL
 
-- **Technical Writing**
-  - Proposal development
-  - Technical documentation
-  - Research paper writing
-  - Report preparation
+Professional Skills
 
-- **Presentations**
-  - Stakeholder presentations
-  - Technical training delivery
-  - Conference presentations
-  - Map and visualization storytelling
+Project Management: Planning, coordination, QA/QC, stakeholder communication
 
----
+Reporting: Technical documentation, proposal writing, scientific reporting
 
-## Domain Knowledge
+Collaboration: Multidisciplinary teamwork, client engagement, mentorship
 
-### Environmental Applications
+Problem-Solving: Analytical, data-driven, and creative solution development
 
-- Environmental impact assessment
-- Biodiversity mapping
-- Habitat suitability modeling
-- Conservation planning
-- Natural resource management
-- Climate change analysis
+Additional Competencies
 
-### Infrastructure & Utilities
+Languages: Fluent in English and Kiswahili
 
-- Utility network mapping
-- Asset management
-- Infrastructure planning
-- Facilities management
-- Network optimization
+Computer Skills: MS Office Suite, Adobe Photoshop/Illustrator, Git/GitHub, Windows & Linux
 
-### Urban Planning
+Domain Knowledge: Environment, natural resources, urban planning, and public health
 
-- Land use planning
-- Zoning analysis
-- Urban growth modeling
-- Smart city applications
-- Transportation planning
+Continuous Learning
 
-### Public Health
+Currently enhancing skills in:
 
-- Disease mapping
-- Health service accessibility
-- Environmental health assessment
-- Epidemiological analysis
+Machine learning for GIS and spatial AI
 
----
+Web GIS and cloud-based geospatial analysis
 
-## Certifications & Training
+Python automation and UAV photogrammetry
 
-### Professional Development
+Certifications & Education
 
-**Completed Training:**
-- GIS Fundamentals
-- Advanced Spatial Analysis
-- Remote Sensing Applications
-- Python for GIS Professionals
-- Project Management Fundamentals
+Member, Institution of Surveyors of Kenya (since 2023)
 
-**Currently Pursuing:**
-- ESRI Technical Certification
-- Professional Surveyor Certification
+B.Eng. Geospatial Engineering, Technical University of Kenya (2024, Upper Second-Class Honors)
 
-### Professional Affiliations
-
-- **Institution of Surveyors of Kenya (ISK)** - Member since July 2023
-- **Geospatial Sciences Students Association** - Active Member (2019 - Present)
-
----
-
-## Software Ecosystem
-
-### Cloud & Web Services
-
-- ArcGIS Online
-- Google Earth Engine
-- Mapbox
-- Carto
-- AWS for geospatial data
-- Microsoft Azure Spatial Services
-
-### Version Control & Collaboration
-
-- Git & GitHub
-- GitLab
-- Project collaboration tools
-- Documentation systems
-
----
-
-## Continuous Learning
-
-I am committed to staying current with emerging technologies and methodologies in the geospatial field. This includes:
-
-- **Artificial Intelligence in GIS**
-  - Machine learning for image classification
-  - Deep learning applications
-  - Automated feature extraction
-
-- **Big Data & Geospatial**
-  - Spatial big data processing
-  - Real-time data streaming
-  - Cloud computing for GIS
-
-- **Emerging Technologies**
-  - Drone/UAV mapping
-  - LiDAR technology
-  - IoT and sensor networks
-  - Augmented Reality (AR) applications
-
----
-
-## How I Can Help You
-
-With this comprehensive skill set, I can assist with:
-
-✅ **Spatial Analysis Projects** - Complex geospatial analysis and modeling  
-✅ **Map Production** - Professional cartography and visualization  
-✅ **Remote Sensing Applications** - Satellite and aerial image analysis  
-✅ **Database Solutions** - Geodatabase design and management  
-✅ **Custom Tools Development** - Python scripts and GIS automation  
-✅ **Training & Workshops** - GIS training and capacity building  
-✅ **Consulting Services** - Project planning and technical guidance
+Pursuing additional certifications in GIS and Remote Sensing
 
 ---
 
