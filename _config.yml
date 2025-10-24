@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Purity Hannah Zawadi"
-  avatar           : "/assets/images/bio-photo.jpg" # Add your professional photo here
+  avatar           : "/assets/images/purity.jpg" # Add your professional photo here
   bio              : "Innovative and results-driven **Geospatial Engineer** with expertise in GIS Analysis, Remote Sensing, and Digital Image Processing. Passionate about solving complex spatial challenges."
   location         : "Nairobi, Kenya"
   email            : "hpurity.zawadi@gmail.com"
@@ -157,6 +157,7 @@ footer:
 
 
 # Reading Files
+read_time: false
 include:
   - .htaccess
   - _pages
