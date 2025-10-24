@@ -1,4 +1,5 @@
 ---
+
 layout: single
 title: "Skills & Expertise"
 permalink: /skills/
@@ -9,6 +10,7 @@ toc_label: "Skills Navigation"
 header:
   overlay_color: "#10b981"
   overlay_filter: "0.5"
+
 ---
 
 As a Geospatial Engineer, I bring a comprehensive skill set that combines technical expertise, analytical thinking, and practical problem-solving abilities. My experience spans cutting-edge GIS technologies, remote sensing applications, and data management solutions.
@@ -16,8 +18,11 @@ As a Geospatial Engineer, I bring a comprehensive skill set that combines techni
 ---
 
 **Core Technical Skills**
+
 GIS Analysis & Mapping
+
 Remote Sensing & Image Processing
+
 Data Collection & Field Work
 
 ---
@@ -54,7 +59,7 @@ Computer Skills: MS Office Suite, Git/GitHub, Windows & Linux
 
 Domain Knowledge: Environment, natural resources, public health, and cloud
 
-Continuous Learning
+**Continuous Learning**
 
 Currently enhancing skills in:
 
@@ -67,7 +72,3 @@ Web GIS and cloud-based geospatial analysis
 Python automation 
 
 ---
-
-## Let's Collaborate
-
-I'm always eager to apply my skills to new challenges and learn from diverse projects.
