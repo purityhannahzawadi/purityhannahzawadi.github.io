@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes@4.27.3"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -20,7 +20,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "Purity Hannah Zawadi"
 title_separator          : "-"
 subtitle                 : "Geospatial Engineer || GIS Specialist || Spatial Data Science" # site tagline that appears below site title in masthead
-name                     : "Purity Hannah Zawadi"
+name                     : # "Purity Hannah Zawadi"
 description              : "Portfolio"
 url                      : "https://purityhannahzawadi.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -116,7 +116,6 @@ author:
   name             : "Purity Hannah Zawadi"
   avatar           : "/assets/images/purity.jpg" # Add your professional photo here
   bio              : "I am a Geospatial Engineer exploring the intersection of GIS, remote sensing, and cloud computing to build innovative, data-driven solutions for sustainability."
-  location         : "Nairobi, Kenya"
   email            : "hpurity.zawadi@gmail.com"
   links:
     - label: "Email"
@@ -131,7 +130,7 @@ author:
     - label: "Phone"
       icon: "fas fa-fw fa-phone-square"
       url: "tel:+254723224349"
-    - label: "Location"
+    - label: "Nairobi, Kenya"
       icon: "fas fa-fw fa-map-marker-alt"
       url: "https://maps.google.com/?q=Nairobi,Kenya"
 
