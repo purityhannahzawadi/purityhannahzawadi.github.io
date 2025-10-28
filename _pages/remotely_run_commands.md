@@ -1,3 +1,18 @@
+---
+
+layout: single
+title: "Remotely Run Commands on an EC2 Instance with AWS Systems Manager"
+permalink: /remotely_run_commands/
+author_profile: true
+toc: true
+toc_sticky: true
+toc_label: "AWS System Manager"
+header:
+  overlay_color: "#db9a39"
+  overlay_filter: "0.5"
+
+---
+
 **Remotely Run Commands on an EC2 Instance with AWS Systems Manager**
 
 **Project Overview**
