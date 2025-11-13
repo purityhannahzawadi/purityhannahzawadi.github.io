@@ -3,6 +3,9 @@ layout: single
 title: Projects
 permalink: /projects/
 author_profile: true
+header:
+  overlay_image: "/assets/images/about.jpg"
+  overlay_filter: "0.4"
 ---
 
 ## Cloud & Infrastructure Projects
