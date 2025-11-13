@@ -8,8 +8,6 @@ main:
     url: /skills/
   - title: "Projects"
     url: /projects/
-  - title: "Contact"
-    url: /contact/
   - title: "Resume"
     url: /assets/files/resume.pdf
 
