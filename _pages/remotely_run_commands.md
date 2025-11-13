@@ -35,11 +35,11 @@ Shell Scripting - Automation commands
 
 As a System Administrator, I needed to update packages on EC2 instances while adhering to strict security policies that prohibited:
 
-    ● Direct SSH access to production servers
+  Direct SSH access to production servers
 
-    ● Use of bastion hosts
+  Use of bastion hosts
 
-    ● Remote PowerShell connections
+  Remote PowerShell connections
 
 **Solution Architecture**
 
@@ -47,83 +47,40 @@ The solution leverages AWS Systems Manager's Run Command feature to securely exe
 
 **Implementation Walkthrough**
 
-Step 1: Create IAM Role for Systems Manager
+**Step 1: Create IAM Role for Systems Manager**
 
 First, I created an IAM role that allows EC2 instances to communicate with Systems Manager.
 <details>
 <summary>📸 Click to view: Opening IAM Console</summary>
-![IAM Console]({{ site.baseurl }}/assets/images/projects/aws-ssm/01-iam-console.png)
-Opening the IAM console to begin role creation
-</details>
-<details>
-<summary>📸 Click to view: Creating a New Role</summary>
-![Create Role Button]({{ site.baseurl }}/assets/images/projects/aws-ssm/02-create-role.png)
-Navigating to create a new IAM role
-</details>
-<details>
-<summary>📸 Click to view: Selecting Trusted Entity</summary>
-![Select Trusted Entity]({{ site.baseurl }}/assets/images/projects/aws-ssm/03-select-ec2.png)
-Selecting EC2 as the trusted entity for the role
-</details>
-<details>
-<summary>📸 Click to view: Adding Permissions Policy</summary>
-![Add Permissions]({{ site.baseurl }}/assets/images/projects/aws-ssm/04-add-permissions.png)
-Attaching AmazonEC2RoleforSSM policy to the role
-</details>
-<details>
-<summary>📸 Click to view: Naming the Role</summary>
-![Name Role]({{ site.baseurl }}/assets/images/projects/aws-ssm/05-name-role.png)
-Naming the role EnablesEC2ToAccessSystemsManagerRole
-</details>
-Key Actions:
+![IAM Console]({{ site.baseurl }}/assets/images/running_commands/step1_create_iam_role.png)
+
+_Key Actions:_
 
 Created EnablesEC2ToAccessSystemsManagerRole role
+
 Attached AmazonEC2RoleforSSM policy
+
 Enabled EC2-to-Systems Manager communication
 
+**Step 2: Launch EC2 Instance**
 
-Step 2: Launch EC2 Instance
 Next, I launched an Amazon Linux EC2 instance with the IAM role attached.
 <details>
 <summary>📸 Click to view: EC2 Console Dashboard</summary>
-![EC2 Console]({{ site.baseurl }}/assets/images/projects/aws-ssm/06-ec2-console.png)
-EC2 console dashboard - starting instance launch
-</details>
-<details>
-<summary>📸 Click to view: Naming the Instance</summary>
-![Name Instance]({{ site.baseurl }}/assets/images/projects/aws-ssm/07-name-instance.png)
-Naming the instance MyEC2Tutorial
-</details>
-<details>
-<summary>📸 Click to view: Selecting AMI</summary>
-![Select AMI]({{ site.baseurl }}/assets/images/projects/aws-ssm/08-select-ami.png)
-Selecting Amazon Linux 2 AMI with pre-installed SSM Agent
-</details>
-<details>
-<summary>📸 Click to view: Choosing Instance Type</summary>
-![Instance Type]({{ site.baseurl }}/assets/images/projects/aws-ssm/09-instance-type.png)
-Choosing t2.micro instance type (Free Tier eligible)
-</details>
-<details>
-<summary>📸 Click to view: No Key Pair Needed</summary>
-![No Key Pair]({{ site.baseurl }}/assets/images/projects/aws-ssm/10-no-keypair.png)
-Proceeding without a key pair - SSH not needed with Systems Manager!
-</details>
-<details>
-<summary>📸 Click to view: Network Configuration</summary>
-![Network Settings]({{ site.baseurl }}/assets/images/projects/aws-ssm/11-network-settings.png)
-Keeping default network and storage settings
-</details>
-<details>
+![EC2 Console]({{ site.baseurl }}/assets/images/running_commands/step2_ec2_launch.png)
+
 <summary>📸 Click to view: Attaching IAM Role</summary>
 ![Attach IAM Role]({{ site.baseurl }}/assets/images/projects/aws-ssm/12-attach-iam-role.png)
 Attaching the IAM role to enable Systems Manager access
 </details>
-Key Actions:
+_Key Actions:_
 
 Selected Amazon Linux 2 AMI (pre-installed with SSM Agent)
+
 Chose t2.micro instance type
+
 No SSH key pair required - demonstrating secure access via Systems Manager
+
 Attached the IAM role created in Step 1
 
 
