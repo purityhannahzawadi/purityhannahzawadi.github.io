@@ -52,7 +52,7 @@ The solution leverages AWS Systems Manager's Run Command feature to securely exe
 First, I created an IAM role that allows EC2 instances to communicate with Systems Manager.
 <details>
 <summary>📸 Click to view: IAM Console</summary>
-![IAM Console]({{ site.baseurl }}/assets/images/running_commands/step1_create_iam_role.png)
+![IAM Console](/assets/images/running_commands/step1_create_iam_role.png)
 </details>
 _Key Actions:_
 
