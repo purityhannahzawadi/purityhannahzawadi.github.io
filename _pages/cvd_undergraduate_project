@@ -1,0 +1,186 @@
+---
+layout: single
+title: "Assessing Environmental Impact on Cardiovascular Diseases in Nairobi"
+excerpt: "A geospatial analysis using satellite data, GIS, and statistical modeling to examine relationships between air pollution, greenspaces, and CVD prevalence"
+header:
+  teaser: /assets/images/cvd-project-teaser.jpg
+  overlay_image: /assets/images/cvd-project-header.jpg
+  overlay_filter: 0.5
+sidebar:
+  - title: "Role"
+    text: "Lead Researcher"
+  - title: "Duration"
+    text: "2023"
+  - title: "Tools Used"
+    text: "Google Earth Engine, R, ArcGIS, Sentinel-5P, Sentinel-2"
+categories:
+  - Geospatial Analysis
+  - Public Health
+tags:
+  - Remote Sensing
+  - GIS
+  - Statistical Modeling
+  - Environmental Health
+gallery:
+  - url: /assets/images/cvd-no2-map.jpg
+    image_path: /assets/images/cvd-no2-map.jpg
+    alt: "NO2 Pollution Levels in Nairobi"
+    title: "Nitrogen Dioxide Distribution"
+  - url: /assets/images/cvd-greenspace-map.jpg
+    image_path: /assets/images/cvd-greenspace-map.jpg
+    alt: "Greenspace Distribution"
+    title: "NDVI-based Greenspace Analysis"
+  - url: /assets/images/cvd-correlation.jpg
+    image_path: /assets/images/cvd-correlation.jpg
+    alt: "Correlation Heatmap"
+    title: "Environmental Variables Correlation"
+---
+
+## Project Overview
+
+This undergraduate research project investigated the relationships between environmental factors and cardiovascular disease (CVD) prevalence in Nairobi County, Kenya. Using a multi-platform geospatial workflow combining satellite remote sensing, GIS analysis, and statistical modeling, the study examined how air pollution and greenspace accessibility relate to CVD incidence rates across different neighborhoods.
+
+### Background & Motivation
+
+Cardiovascular diseases account for 32% of global deaths, with disproportionate impacts in low- and middle-income regions. In Kenya, CVDs represent approximately 25% of hospital admissions with a 13% mortality rate. While individual risk factors like genetics and lifestyle are well-studied, the role of environmental exposures—particularly in African urban contexts—remains underexplored.
+
+Nairobi, experiencing rapid urbanization (4% annual population growth), faces significant environmental challenges including air pollution and limited greenspace access. This study aimed to quantify these environmental impacts on cardiovascular health outcomes.
+
+## Methodology
+
+### Data Sources & Tools
+
+**Satellite Data:**
+- **Sentinel-5P TROPOMI**: Air quality monitoring (NO₂, CO) at 1113.2m resolution
+- **Sentinel-2 MSI**: Land cover and vegetation mapping (NDVI) at 60m resolution
+- **World Bank**: Ward-level cardiovascular incidence data
+
+**Analysis Platforms:**
+- **Google Earth Engine**: Satellite data retrieval and preprocessing
+- **ArcGIS**: Spatial data integration and rasterization
+- **R Programming**: Statistical analysis, visualization, and regression modeling
+
+### Workflow
+
+```
+1. Data Acquisition (GEE)
+   ├── Air pollution layers (NO₂, CO) - 2021-2022
+   ├── Greenspace mapping (NDVI)
+   └── Cloud filtering and preprocessing
+
+2. Spatial Integration (ArcGIS)
+   ├── CVD data import and classification
+   ├── Vector to raster conversion
+   └── Layer alignment and export
+
+3. Statistical Analysis (R)
+   ├── Exploratory data analysis
+   ├── Correlation analysis (Pearson's r)
+   └── Linear regression modeling
+```
+
+### Key Analyses
+
+**Spatial Analysis:**
+- Created annual composite maps of air pollutants and greenspace distribution
+- Calculated mean exposure levels across the study period
+- Mapped CVD incidence patterns by administrative ward
+
+**Statistical Modeling:**
+- Pearson correlation analysis between environmental variables and CVD burden
+- Multiple linear regression to identify significant predictors
+- Model performance evaluation (R², p-values)
+
+## Results & Findings
+
+{% include gallery caption="Spatial distribution maps of environmental variables and CVD incidence" %}
+
+### Air Pollution Patterns
+
+- **NO₂ levels**: Maximum concentration of 44.90 ppb, concentrated in central business district
+- **CO levels**: Maximum of 27.32 mg/m³, showing urban concentration patterns
+- Both pollutants showed persistent presence across the city despite relatively low absolute levels
+
+### Greenspace Distribution
+
+Analysis revealed greenspaces predominantly located outside the main city center, suggesting unequal access across neighborhoods. NDVI-based classification showed clear spatial disparities in vegetation coverage.
+
+### Correlation Analysis
+
+Key findings from Pearson correlation:
+- **CO and Greenspace**: Strong negative correlation (r = -0.42, p < 0.0001) - areas with higher pollution had less greenspace
+- **Greenspace and CVD**: Positive correlation (r = 0.22, p = 0.045) - unexpected direction, contrary to previous literature
+- **NO₂ and CVD**: Weak positive correlation (r = 0.16, p = 0.15) - not statistically significant
+
+### Regression Results
+
+The linear regression model (R² = 0.31, p < 0.0001) revealed:
+- **Greenspace was the only statistically significant predictor** (p < 0.001) of CVD burden
+- NO₂ (p = 0.251) and CO (p = 0.635) showed no significant predictive relationships
+- The model explained 31% of variation in CVD cases
+
+## Discussion & Implications
+
+### Unexpected Findings
+
+The positive association between greenspace and CVD burden contrasted with established literature. This suggests:
+
+1. **Localized context matters**: Socioeconomic factors may modify greenspace benefits in Nairobi
+2. **Access vs. availability**: Presence of greenspace doesn't guarantee utilization
+3. **Confounding variables**: Lifestyle choices, diet, and healthcare access may drive patterns
+
+### Public Health Implications
+
+The findings emphasize that CVD interventions in Nairobi require a **multi-faceted approach**:
+- Environmental risk mitigation (air quality improvement)
+- Lifestyle modification programs
+- Socioeconomic equity improvements
+- Enhanced healthcare system capacity
+
+### Methodological Contributions
+
+This project demonstrated:
+- Successful integration of multiple geospatial platforms (GEE, ArcGIS, R)
+- Application of satellite remote sensing for urban health research in African contexts
+- Spatial analysis techniques for identifying health disparities at the neighborhood level
+
+## Challenges & Limitations
+
+- **Geographic scope**: Findings specific to Nairobi; may not generalize to other regions
+- **Data constraints**: Ward-level CVD estimates may not capture neighborhood-scale variations
+- **Temporal scope**: Two-year study period; longer timeframes needed for trend analysis
+- **Unmeasured confounders**: Diet, exercise, smoking, and socioeconomic factors not included
+
+## Future Directions
+
+1. **Enhanced modeling**: Incorporate demographic, lifestyle, and healthcare access variables
+2. **Qualitative research**: Community engagement to understand greenspace utilization patterns
+3. **Longitudinal analysis**: Extended time series to capture temporal trends
+4. **Intervention studies**: Test targeted environmental and health system improvements
+
+## Technical Skills Demonstrated
+
+- **Remote Sensing**: Satellite data processing, atmospheric corrections, cloud masking
+- **GIS Analysis**: Spatial data integration, rasterization, overlay analysis
+- **Statistical Programming**: R for data manipulation, visualization, and modeling
+- **Data Visualization**: Creation of publication-quality maps and figures
+- **Research Methodology**: Literature review, hypothesis testing, scientific writing
+
+## Project Impact
+
+This research contributes to the limited body of work on environmental drivers of cardiovascular disease in Sub-Saharan Africa. The spatial analysis framework can inform:
+- **Urban planning**: Targeted greenspace development in underserved areas
+- **Public health policy**: Evidence-based interventions for CVD prevention
+- **Future research**: Foundation for expanded studies incorporating additional variables
+
+## Resources
+
+- **Full Report**: [Download PDF](/assets/documents/cvd-research-report.pdf)
+- **Code Repository**: [GitHub - CVD Analysis Scripts](https://github.com/purityhannahzawadi/cvd-nairobi-analysis)
+- **Presentation**: [View Slides](/assets/documents/cvd-presentation.pdf)
+
+---
+
+*This project was completed as partial fulfillment of the Bachelor of Engineering in Geospatial Engineering degree at the Technical University of Kenya (November 2023). Supervised by Mr. David Kanyari.*
+
+**Keywords**: Cardiovascular diseases, Google Earth Engine, Environmental health, Air pollution, Remote sensing, Geospatial analysis, Public health, Nairobi
