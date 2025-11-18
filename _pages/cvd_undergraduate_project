@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "Assessing Environmental Impact on Cardiovascular Diseases in Nairobi"
+permalink: /cvd_undergraduate_project/
+author_profile: true
 excerpt: "A geospatial analysis using satellite data, GIS, and statistical modeling to examine relationships between air pollution, greenspaces, and CVD prevalence"
 header:
   teaser: /assets/images/cvd-project-teaser.jpg
