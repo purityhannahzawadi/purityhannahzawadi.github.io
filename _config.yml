@@ -116,7 +116,6 @@ author:
   name             : "Purity Hannah Zawadi"
   avatar           : "/assets/images/purity.jpg" # Add your professional photo here
   bio              : "I am a Geospatial Engineer exploring the intersection of GIS, remote sensing, and cloud computing to build innovative, data-driven solutions for sustainability."
-  email            : "hpurity.zawadi@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
