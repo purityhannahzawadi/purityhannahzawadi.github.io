@@ -7,7 +7,7 @@ excerpt: "A geospatial analysis using satellite data, GIS, and statistical model
 header:
   teaser: /assets/images/cvd-project-teaser.jpg
   overlay_image: /assets/images/cvd-project-header.jpg
-  overlay_filter: 0.5
+  overlay_filter: 0.6
 sidebar:
   - title: "Role"
     text: "Lead Researcher"
